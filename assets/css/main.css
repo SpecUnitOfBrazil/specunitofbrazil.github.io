@@ -1,4 +1,5 @@
 body{background-color:#F2F2F2;}
 
+img{max-height: 100%;}
 .box-sizing{box-sizing:border-box;}
 #header{height:54px;}
