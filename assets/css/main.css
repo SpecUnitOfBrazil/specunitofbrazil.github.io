@@ -10,6 +10,13 @@ img{width:auto;height:auto;max-height: 100%;}
 
 .div_main{width:100%;max-width:1200px;max-height:500px;margin:0 auto;}
 .yellow{background:yellow;border:0;}
-.v_selection{float:left;margin-left:5px;}
+.v_selection{float:left;margin-left:5px;position:relative;}
+.v_selection iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 ._1_video{marginleft:10px;}
 ._3_video{margin-right:10px;}
