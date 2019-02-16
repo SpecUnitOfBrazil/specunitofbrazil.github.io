@@ -10,4 +10,6 @@ img{width:auto;height:auto;max-height: 100%;}
 
 .div_main{width:100%;max-width:1200px;max-height:500px;margin:0 auto;}
 .yellow{background:yellow;border:0;}
-
+.v_selection{float:left;margin-left:5px;}
+._1_video{marginleft:10px;}
+._3_video{margin-right:10px;}
