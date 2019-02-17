@@ -64,6 +64,9 @@ form .input-inline-block {
     padding: 20.5px 30px;
     margin-bottom: 40px;
 }
+.default-form input {
+    color: rgba(51, 51, 51, 0.6);
+}
 .crew-text {
     font-size: 50px;
     font-weight: 900;
