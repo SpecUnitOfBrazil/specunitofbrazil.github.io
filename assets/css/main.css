@@ -40,8 +40,14 @@ header .logo {
 /* blockquote 
 ------------------------------------------------- */
 
-.yellow{background:yellow;border:0;}
-blockquote {
+newsletter-text .default-form {
+    text-align: center;
+}
+form .input-inline-block {
+    margin: 0 10px;
+}
+.input-inline-block {
+    display: inline-block;
 }
 
 /* Videos 
