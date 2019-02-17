@@ -32,7 +32,7 @@ header .col-n1 {
 }
 
 header .logo {
-  display: inline-block;
+  display: none;
 }
 
 .newsletter-text {
