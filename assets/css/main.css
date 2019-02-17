@@ -83,6 +83,7 @@ form .input-inline-block {
 }
 
 .info-form {
+    color: white;
     margin-bottom: 40px;
     line-height: 30px;
 }
