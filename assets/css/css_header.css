@@ -1,15 +1,1 @@
-header {
-  width: 100%;
-}
 
-.height_header {
-  height: 100%;
-}
-
-header .col-n1 {
-  text-align: left !important;
-}
-
-header .logo {
-  display: inline-block;
-}
