@@ -67,9 +67,12 @@ form .input-inline-block {
 .default-form input {
     background-color: rgba(17, 17, 17, 0.6);
     color: white;
+    font-family: "Open Sans";
 }
 .default-form input::placeholder {
   color: white;
+    font-family: "Open Sans";
+    font-weight: 500;
 }
 .crew-text {
     font-size: 50px;
