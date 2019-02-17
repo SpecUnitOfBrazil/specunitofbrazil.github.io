@@ -6,15 +6,6 @@ body{background-color:#F2F2F2;}
 
 img{width:auto;height:auto;max-height: 100%;}
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 .text-center {
     text-align: center;
 }
@@ -35,16 +26,6 @@ header .col-n1 {
 
 header .logo {
   display: inline-block;
-}
-
-/* Container */
-
-.container {
-    width: 100%; */
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .div_main{width:100%;max-width:1200px;min-height:530px;margin:0 auto;}
@@ -69,6 +50,25 @@ footer {
 
 .copyright {
     padding: 40px 0;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Container */
+
+.container {
+    width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* ----@---- */
