@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
-.copyright {
-    font-family: "Opens Sans", hevetica, arial, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+body {
+    background-color: #EEEEEE;
 }
 
-body{background-color: #EEEEEE;}
-
-img{width:auto;height:auto;max-height: 100%;}
+img {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
 
 .text-center {
     text-align: center;
@@ -100,6 +100,12 @@ form .input-inline-block {
 footer {
     width: 100%;
     background-color: white;
+}
+
+.copyright {
+    font-family: "Opens Sans", hevetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .copyright {
