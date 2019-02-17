@@ -56,3 +56,7 @@ footer {
     width: 100%;
     background-color: pink;
 }
+
+.copyright {
+    padding: 40px 0;
+}
