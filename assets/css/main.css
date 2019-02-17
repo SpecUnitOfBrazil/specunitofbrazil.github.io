@@ -62,6 +62,7 @@ form .input-inline-block {
     border: none;
     outline: none;
     padding: 20.5px 30px;
+    margin-bottom: 40px;
 }
 .crew-text {
     font-size: 50px;
