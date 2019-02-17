@@ -37,10 +37,10 @@ header .logo {
 
 .div_main{width:100%;max-width:1200px;min-height:530px;margin:0 auto;}
 
-/* blockquote 
+/* Formulario 
 ------------------------------------------------- */
 
-newsletter-text .default-form {
+.newsletter-text .default-form {
     text-align: center;
 }
 form .input-inline-block {
@@ -48,6 +48,10 @@ form .input-inline-block {
 }
 .input-inline-block {
     display: inline-block;
+}
+.newsletter-text input {
+    border: none;
+    outline: none;
 }
 
 /* Videos 
