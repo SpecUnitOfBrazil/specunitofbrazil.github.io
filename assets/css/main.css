@@ -58,6 +58,12 @@ form .input-inline-block {
     border: none;
     outline: none;
 }
+.crew-text {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
 
 /* Videos 
 ------------------------------------------------- */
