@@ -80,5 +80,5 @@ footer {
 }
 
 .crew-gta {
-    background: src(https://sm.ign.com/ign_br/screenshot/default/rsggtavpcscreenshot046jpg-d12d9b_cpx4.jpg);
+    background-image: url("https://sm.ign.com/ign_br/screenshot/default/rsggtavpcscreenshot046jpg-d12d9b_cpx4.jpg");
 }
