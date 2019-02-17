@@ -49,3 +49,9 @@ header .logo {
 }
 ._1_video{margin-left:10px;}
 ._3_video{margin-right:10px;}
+
+/* Rodapé */
+
+footer {
+    width: 100%;
+}
