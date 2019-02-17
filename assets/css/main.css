@@ -35,7 +35,12 @@ header .logo {
   display: inline-block;
 }
 
-.newsletter-text{width:100%;max-width:1200px;min-height:530px;margin:0 auto;}
+.newsletter-text {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 530px;
+    margin: 0 auto;
+}
 
 /* Formulario 
 ------------------------------------------------- */
