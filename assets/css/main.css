@@ -38,13 +38,17 @@ header .logo {
 .newsletter-text {
     width: 100%;
     max-width: 1200px;
-    min-height: 530px;
+    max-height: 530px;
     margin: 0 auto;
 }
 
 /* Formulario 
 ------------------------------------------------- */
 
+.crew-gta {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 .newsletter-text .default-form {
     text-align: center;
 }
