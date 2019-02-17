@@ -36,7 +36,17 @@ header .logo {
 }
 
 .div_main{width:100%;max-width:1200px;min-height:530px;margin:0 auto;}
+
+/* blockquote 
+------------------------------------------------- */
+
 .yellow{background:yellow;border:0;}
+blockquote {
+}
+
+/* Videos 
+------------------------------------------------- */
+
 .v_selection{width:33.33%;float:left;margin-left:5px;padding-bottom: 56.25%;position:relative;}
 .v_selection iframe{
     position: absolute;
