@@ -19,6 +19,24 @@ img{width:auto;height:auto;max-height: 100%;}
     text-align: center;
 }
 
+/* Cabeçalho */
+
+header {
+  width: 100%;
+}
+
+.height_header {
+  height: 100%;
+}
+
+header .col-n1 {
+  text-align: left !important;
+}
+
+header .logo {
+  display: inline-block;
+}
+
 .div_main{width:100%;max-width:1200px;min-height:530px;margin:0 auto;}
 .yellow{background:yellow;border:0;}
 .v_selection{width:33.33%;float:left;margin-left:5px;padding-bottom: 56.25%;position:relative;}
