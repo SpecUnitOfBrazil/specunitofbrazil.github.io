@@ -68,6 +68,9 @@ form .input-inline-block {
     background-color: rgba(17, 17, 17, 0.6);
     color: #f1f1f1;
 }
+::placeholder {
+  color: blue;
+}
 .crew-text {
     font-size: 50px;
     font-weight: 900;
