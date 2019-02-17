@@ -10,7 +10,8 @@ img{width:auto;height:auto;max-height: 100%;}
     text-align: center;
 }
 
-/* Cabeçalho */
+/* Cabeçalho
+------------------------------------------------- */
 
 header {
   width: 100%;
@@ -41,7 +42,8 @@ header .logo {
 ._1_video{margin-left:10px;}
 ._3_video{margin-right:10px;}
 
-/* Rodapé */
+/* Rodapé
+------------------------------------------------- */
 
 footer {
     width: 100%;
