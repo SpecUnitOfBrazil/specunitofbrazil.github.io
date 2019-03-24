@@ -99,7 +99,7 @@ form .input-inline-block {
     color: white;
     font-family: "Open Sans";
 }
-.default-form input:focus {
+.default-form:focus, input[type="text"]:focus {
     color: rgba(255,255,255, 0.8);
 }
 .default-form input::placeholder {
