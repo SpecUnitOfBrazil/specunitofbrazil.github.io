@@ -56,6 +56,12 @@ header .logo {
     margin: 0 auto;
 }
 
+/* Menu
+------------------------------------------------- */
+ul.links li {
+    display: inline-block;
+}
+
 /* Formulario 
 ------------------------------------------------- */
 
