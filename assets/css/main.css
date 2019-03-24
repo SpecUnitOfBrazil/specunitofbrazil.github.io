@@ -82,7 +82,7 @@ ul.links li {
 .newsletter-text .default-form {
     text-align: center;
 }
-.newsletter-text .default-form::focus {
+.newsletter-text .default-form input:focus {
     color: rgba(255,255,255, 0.8);
 }
 form .input-inline-block {
