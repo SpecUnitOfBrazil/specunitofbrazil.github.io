@@ -69,6 +69,7 @@ header .logo {
     z-index: 10001;
 }
 ul.links li {
+    color: white;
     display: inline-block;
 }
 
