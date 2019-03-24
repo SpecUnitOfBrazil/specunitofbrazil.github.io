@@ -82,9 +82,6 @@ ul.links li {
 .newsletter-text .default-form {
     text-align: center;
 }
-.newsletter-text .default-form input:focus {
-    color: rgba(255,255,255, 0.8);
-}
 form .input-inline-block {
     margin: 0 10px;
 }
@@ -101,6 +98,9 @@ form .input-inline-block {
     background-color: rgba(17, 17, 17, 0.6);
     color: white;
     font-family: "Open Sans";
+}
+.default-form input:focus {
+    color: rgba(255,255,255, 0.8);
 }
 .default-form input::placeholder {
   color: white;
