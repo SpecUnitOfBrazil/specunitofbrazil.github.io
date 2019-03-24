@@ -58,6 +58,17 @@ header .logo {
 
 /* Menu
 ------------------------------------------------- */
+#menu {
+    background: rgba(0, 0, 0, 0.975);
+    color: #a6a6a6;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    text-align: right;
+    width: 100%;
+    z-index: 10001;
+}
 ul.links li {
     display: inline-block;
 }
