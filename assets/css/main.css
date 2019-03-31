@@ -78,6 +78,7 @@ header .logo {
     font-size: 13px;
     text-decoration: none;
     padding: 7px 8px 7px 8px;
+    float: left;
 }
 
 .links a:hover {
