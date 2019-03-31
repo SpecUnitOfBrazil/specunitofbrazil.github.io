@@ -81,7 +81,7 @@ header .logo {
 }
 
 .links a:hover {
-    border: 1px solid #1271ff;
+    border: 1px solid rgb(220,220,220, 0.3);
 }
 
 /* Formulario 
