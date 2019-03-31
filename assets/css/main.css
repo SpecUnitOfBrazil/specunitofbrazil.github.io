@@ -59,7 +59,7 @@ header .logo {
 /* Menu
 ------------------------------------------------- */
 #menu {
-    background: rgba(0, 0, 0, 0.975);
+    background: #001B43;
     color: #a6a6a6;
     cursor: default;
     height: 3.25em;
