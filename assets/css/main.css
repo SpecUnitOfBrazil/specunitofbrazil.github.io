@@ -73,7 +73,6 @@ header .logo {
 .links a {
     color: #ccc;
     border: 1px solid transparent;
-    display: inline-block;
     font-family: arial, sans-serif;
     font-size: 13px;
     text-decoration: none;
