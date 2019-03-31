@@ -70,9 +70,15 @@ header .logo {
     z-index: 10001;
 }
 ul.links li {
+    border: 1px solid transparent;
     display: inline-block;
     padding: 0 20px;
 }
+
+ul.links li {
+    border: 1px solid #ccc;
+)
+
 ul.links li a {
     color: #ccc;
     font-family: arial, sans-serif;
