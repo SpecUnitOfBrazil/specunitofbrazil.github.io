@@ -64,7 +64,6 @@ header .logo {
     color: #a6a6a6;
     cursor: default;
     height: 3.25em;
-    line-height: 3.25em;
     text-align: left;
     width: 100%;
     z-index: 10001;
@@ -77,6 +76,7 @@ header .logo {
     font-size: 13px;
     text-decoration: none;
     padding: 7px 8px 7px 8px;
+    margin: 10px 0px 10px 0px;
     float: left;
 }
 
