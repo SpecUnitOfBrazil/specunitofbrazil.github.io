@@ -22,16 +22,23 @@ table, caption, tbody, tfoot, thead, tr, th, td, .widget{margin: 0; padding: 0; 
   padding-right: 15px;
 }
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 body {
   background-color: #100E13;
   background-image: url("https://i.imgur.com/7euNd8r.png?quality=100&strip=all");
   background-size: 100%;
   background-repeat: no-repeat;
-  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif !important;
   font-size: 16px;
   line-height: 20px;
-  color: white;
-  font-family: 'Open Sans', Helvetica, sans-serif !important;
 }
 
 img {
@@ -47,28 +54,26 @@ img {
 /* Cabeçalho
 ------------------------------------------------- */
 
-header {
-  width: 100%;
-  display: none;
+/* Logotipo
+------------------------------------------------- */
+
+.logotipo {
+  max-height: 250px;
+  text-align: center;
 }
 
-.height_header {
-  height: 100%;
+.logotipo img {
+  max-width: 25%;
+  transition: .3s;
+  
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
 }
 
-header .col-n1 {
-  text-align: left !important;
-}
-
-header .logo {
-  display: block;
-}
-
-.newsletter-text {
-  width: 100%;
-  max-width: 1200px;
-  max-height: 530px;
-  margin: 0 auto;
+.logotipo img:hover {
+  -webkit-filter: none;	
+  filter: none;	
 }
 
 /* Menu
@@ -97,7 +102,7 @@ header .logo {
   border-bottom: 2px solid transparent;
   color: white;
   display: block;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 8px;
   padding-left: 11px;
   padding-right: 11px;
@@ -109,28 +114,6 @@ header .logo {
   border-bottom: 2px solid rgb(220,220,220, 0.3);
 }
 
-/* Logotipo
-------------------------------------------------- */
-
-.logotipo {
-  max-height: 250px;
-  text-align: center;
-}
-
-.logotipo img {
-  max-width: 25%;
-  transition: .3s;
-  
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray; /* IE */
-}
-
-.logotipo img:hover {
-  -webkit-filter: none;	
-  filter: none;	
-}
-
 /* Formulario 
 ------------------------------------------------- */
 
@@ -139,23 +122,15 @@ header .logo {
   padding-top: 30px;
 }
 
-.newsletter-text .default-form {
+.newsletter-text {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 530px;
+  margin: 0 auto;
+}
+
+.newsletter-text {
   text-align: center;
-}
-
-form .input-inline-block {
-  margin: 0 10px;
-}
-
-.input-inline-block {
-  display: inline-block;
-}
-
-.newsletter-text input {
-  border: none;
-  outline: none;
-  padding: 20.5px 30px;
-  margin-bottom: 40px;
 }
 
 .col-news-table {
@@ -167,42 +142,6 @@ form .input-inline-block {
   margin-bottom: 150px;
 }
 
-.default-form input {
-  background-color: rgba(26, 26, 26, 0.7);
-  border: 1px solid transparent;
-  color: white;
-  font-family: "Open Sans";
-  font-size: 15px;
-  font-weight: 500;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.default-form input:active:not(.btn),
-.default-form input:focus:not(.btn) {
-  background: rgba(26, 26, 26, 0.9);
-  border: 1px solid #fcaf17;
-}
-
-.default-form:focus, input[type="text"]:focus {
-  color: rgba(255,255,255, 0.8);
-}
-
-.submit-btn input {
-  background-color: #000000;
-}
-
-.submit-btn input:active {
-  background-color: rgba(26, 26, 26, 0.9);
-}
-
-.default-form input::placeholder {
-  color: white;
-  font-family: "Open Sans";
-  font-weight: 500;
-}
-
 .intro-home-join {
   font-family: 'Pacifico', Helvetica, Arial, sans-serif !important;
   font-size: 50px;
@@ -212,21 +151,13 @@ form .input-inline-block {
   text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
 }
 
-.info-form {
+.info-join {
   color: white;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 40px;
   line-height: 30px;
-  
-  text-shadow: 2px 2px 0 #100E13,
-  2px -2px 0 #100E13,
-  -2px 2px 0 #100E13,
-  -2px -2px 0 #100E13,
-  2px 0px 0 #100E13,
-  0px 2px 0 #100E13,
-  -2px 0px 0 #100E13,
-  0px -2px 0 #100E13;
+  text-shadow: 2px 2px 0 #100E13, 2px -2px 0 #100E13, -2px 2px 0 #100E13, -2px -2px 0 #100E13, 2px 0px 0 #100E13, 0px 2px 0 #100E13, -2px 0px 0 #100E13, 0px -2px 0 #100E13;
 
 }
 
@@ -252,33 +183,28 @@ form .input-inline-block {
   margin-right: 15px;
 }
 
-.movie-g {
-  width: ;
-}
-.movie-2 {}
-.movie-3 {}
-
-.v_selection {
+.movie-item {
   width: 25.33%;
   float: left;
   padding-bottom: 15.25%;
   position: relative;
   margin-left: 4%;
   margin-right: 4%;
-  }
+}
   
-.v_selection iframe{
+.movie-item iframe{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-._1_video {
-  margin-left: 10px;
-}
-._3_video {
-  margin-right: 10px;
+
+/* Container
+------------------------------------------------- */
+
+.section-newsletter .container {
+  width: 100%;
 }
 
 /* Rodapé
@@ -298,17 +224,4 @@ footer {
 
 .copyright {
   padding: 40px 0;
-}
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-/* Container */
-
-.section-newsletter .container {
-  width: 100%;
 }
