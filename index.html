@@ -114,7 +114,10 @@
           height: '360',
           width: '640',
           videoId: 'CNJnBdrDrnU',
-          autoplay: '1',
+            playerVars: {
+              enablejsapi: '1',
+              autoplay: '1',
+	    },
           events: {
             'onReady': onPlayerReady,
           }
