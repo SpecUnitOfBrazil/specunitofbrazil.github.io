@@ -538,8 +538,17 @@ main.wrapper section {
     background-image: url(https://i.imgur.com/nA1s8FU.png);
 }
 
-.bg1::before {background-image: url('');} 
-.bg2::before {background-image: url('');}
+.text {
+    padding: 20px 0;
+    color: white;
+    font-size: 85px;
+    font-family: 'Staatliches', cursive;
+    z-index: 11; /* 1px higher than the overlay */
+    position: relative;
+}
+
+.bg1::before {background-image: url('https://wallpaperaccess.com/full/707093.jpg');} 
+.bg2::before {background-image: url('https://vignette.wikia.nocookie.net/gtawiki/images/4/45/Terminal-GTAV-nextgen.jpg');}
 .bg3::before {background-image: url('');}
 
 .overlay {
