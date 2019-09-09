@@ -1,0 +1,7 @@
+/* CSS variables
+--------------------------------------------*/
+:root {
+  --body: #030303;
+  --cor-link-ativo: #AA88FF; /* Roxo */
+  --cor-do-comando: rgb(7, 124, 199);
+}
