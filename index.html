@@ -98,7 +98,7 @@
                   <div id="player"></div>
                 </div>
 		    
-		        <script type="text/javascript">
+    <script type="text/javascript">
       var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -109,23 +109,16 @@
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
 
-                                height: $height+'px',
-                                width: $width+'px',
-                                videoId: 'CNJnBdrDrnU',
-                                playerVars: {
-                                  'enablejsapi': 1,
-                                  'autoplay': 1,
-                                  'controls': 0,
-                                  'rel': 0,
-                                  'loop': 1,
-                                  'showinfo': 0,
-                                },
-                                events: {
-                                  'onReady': onPlayerReady,
-                                }
-                              });
-        
-                            }
+        player = new YT.Player('player', {
+          height: '360',
+          width: '640',
+          videoId: 'CNJnBdrDrnU',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
 
       function onPlayerReady(event) {
         event.target.playVideo();
