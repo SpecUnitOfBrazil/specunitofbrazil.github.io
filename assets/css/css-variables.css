@@ -1,1 +1,8 @@
 
+/* CSS variables
+--------------------------------------------*/
+:root {
+  --body: #030303;
+  --cor-link-ativo: #0080D0; /* Azul */
+  --cor-do-comando: rgb(7, 124, 199);
+}
