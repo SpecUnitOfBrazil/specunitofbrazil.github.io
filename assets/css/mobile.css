@@ -1,1 +1,118 @@
 
+/*
+* Spec Unit of Brazil
+----------------------------------------------------------*/
+/*
+*                     Section 1 - Cabeçalho
+----------------------------------------------------------*/
+.trigger_active .mp-header-bg h1 {
+    color: #ffffff;
+}
+.trigger_active .hamburguer,
+.trigger_active .hamburguer::before,
+.trigger_active .hamburguer::after { /* Botão Hamburguer Tablet/Mobile*/
+    background-color: #ffffff; /* Faz com que o hambuguer continue branco,
+     com a abertura do menu Tablet/Mobile */
+}
+
+/* Menu Mobile CSS */
+.grid-header-mobile-nav {
+    overflow: hidden;
+}
+
+/* Mobile responsive
+----------------------------------------------------------*/
+@media (min-width: 800px){
+    .toggle-nav {
+        display: none;
+    }
+    #mobile-navigation {
+        visibility: hidden !important;
+        opacity: hidden !important;
+    }
+    .hide-in-media-767px {
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .grid-header-container {  /* Tbm se aplica a midia Tablet */
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .grid-header-logo {
+        width: 80%;
+    }
+    .btn-mobile {
+        width: 20%;
+        float: right;
+    }
+    .video_metadata {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-two {
+      padding-top: 0px;
+    }
+    .section-three article header {
+      padding-bottom: 0px;
+    }
+    .section-three h2 {
+      font-size: 40px;
+    }
+  }
+
+/* Parallax
+----------------------------------------------------------*/
+.section-parallax .text {
+    line-height: 87px;
+}
+
+/*
+*                                 Section 2
+----------------------------------------------------------*/
+
+/*
+*                                 Section 3
+----------------------------------------------------------*/
+@media screen and (max-width: 480px){
+    .section-three {
+        background-color: #fff;
+    }
+    article {
+        overflow: hidden;
+    }
+    .section-three .container {
+        width: 100% !important;
+    }
+    .section-three .grid-container {
+        width: 100% !important;
+        display: block;
+    }
+    .section-three h3.about-us {
+        display: none;
+    }
+    .space {
+        margin-bottom: 0;
+    }
+    .section-three p {
+        color: #272727;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 1.3rem;
+        letter-spacing: .1rem;
+        text-align: center;
+    }
+}
+
+/*
+*                                 Section 4
+----------------------------------------------------------*/
+
+/*
+*                                  Footer
+----------------------------------------------------------*/
+
+/* Footer Links Mobile
+----------------------------------------------------------*/
